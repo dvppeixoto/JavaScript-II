@@ -20,11 +20,21 @@ const sum4 = (number1, number2) => { // modo flecha com chaves precisa do return
 } 
 
 const sum5 = () => {    //arrow function sem parâmetro
-return number1 + number2
+    
+    return number1 + number2
 }
+
+
 
 const sum6 = number1 => { //arrow function com apenas um parâmetro não precisa de parênteses.
     return number1
 }
+
+sum7 = (number1, number2) => {   //arrow function resumida sem a const.
+    const result = number1 + number2
+    console.log(result)
+}
+
+sum7(4,7)
 
 
