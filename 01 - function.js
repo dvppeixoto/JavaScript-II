@@ -5,3 +5,12 @@ function printing() {
 }
 
 printing()  //chama a função e executa o console.log de dentro da função
+
+//função resumida sem criar a const e usando arrow function.
+//o vscode reclama.
+printing2 = () => {
+    console.log('imprimindo2')
+}
+
+printing2()
+
